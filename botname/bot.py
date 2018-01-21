@@ -1,13 +1,18 @@
 import argparse
+import logging
 
 import praw
 
 
-def process_comment(comment: praw.models.Comment, opts: argparse.Namespace):
+def parse_comment(comment: praw.models.Comment, opts: argparse.Namespace):
     """Process a comment"""
-    pass
+    logging.info('ID: {}'.format(comment.id))
+    logging.info('Author: {}'.format(comment.author))
+    logging.info('Body: {}'.format(comment.body))
 
 
-def process_submission(submission: praw.models.Submission, opts: argparse.Namespace):
+def parse_submission(submission: praw.models.Submission, opts: argparse.Namespace):
     """Process a submission"""
-    pass
+    logging.info('ID: {}'.format(submission.id))
+    logging.info('Author: {}'.format(submission.author))
+    logging.info('Body: {}'.format(submission.title))
