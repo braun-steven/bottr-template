@@ -6,4 +6,4 @@ virtualenv3 --python=python3 env
 ./env/bin/pip install -r requirements.txt
 
 mv botname ${name}
-sed "s/botname/${name}/g" main.py
+sed -i "s/botname/${name}/g" main.py
