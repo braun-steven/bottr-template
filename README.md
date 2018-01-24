@@ -1,7 +1,7 @@
 # bottr-template
 
 This repository shall give a rough template to start with writing a 
-reddit bot using [bottr](https://botts.readthedocs.io).
+reddit bot using [bottr](https://bottr.readthedocs.io).
 
 ## Setup
 
