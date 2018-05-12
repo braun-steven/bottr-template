@@ -1,2 +1,2 @@
-praw
-bottr
+praw==5.3.0
+bottr==1.4.0
