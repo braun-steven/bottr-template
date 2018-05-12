@@ -1,3 +1,2 @@
 praw
-typing==3.6.2
-bottr==0.1.2
+bottr
